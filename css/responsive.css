@@ -1,0 +1,52 @@
+@media (max-width:768px){
+  section{
+    display: block;
+  }
+
+  section .landing-page{
+    margin-left: 4.5%;
+    width: 80%;
+  }
+
+section .text {
+  margin: 46px 128px 0px 50px;
+  text-align: center;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  margin: 50px 0px 20px 0px;
+}
+}
+
+@media (max-width:576px){
+
+  section {
+    margin: 20px;
+  }
+
+  section .text{
+    margin: 0;
+  }
+
+  section .text p{
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width:415px){
+  header .logo {
+    width: 30%;
+    margin: 20px 40px 10px 20px;
+  }
+
+  footer .icons {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin: 30px 0px 10px 0px;
+  }
+}
